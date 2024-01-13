@@ -45,7 +45,7 @@ const cardStyles = `
 `;
 ```
 
-The entry point of the styles is defined in the HTML file, with the "root" attribute, seen in the left in the body tag. Then the styles are applied via the implementStyles function:
+The entry point of the styles is defined in the HTML file, with the "root" attribute, seen in the HTML code in the body tag. Then the styles are applied via the implementStyles function:
 
 ```js
   implementStyles(cardStyles, "example.html", "userCard");
