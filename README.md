@@ -57,7 +57,8 @@ The entry point of the styles is defined in the HTML file, with the "root" attri
 ```
 
 Then the results can be seen by opening the HTML file in the browser:
-<img src="./pic_result.PNG"/>
+![image](https://github.com/Seth-Harlaar/SML/assets/92818054/96b5252c-9038-4c02-842e-c9c470499708)
+
 
 
 ### Notes
