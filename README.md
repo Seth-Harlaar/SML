@@ -14,9 +14,12 @@ Using a regular HTML file you can define your content as usual. Then, using a JS
       <img src="profile_pic.PNG" alt="User Profile Picture">
       <h2>Seespler</h2>
       <p>Combat level: 94</p>
-      <p>Cash Stack Color: Green</p>
+      <p>Cash Stack Color: 
+        <span>Green</span>
+      </p>
     </div>
   </div>
+
   <script src="./example.js"></script>
 </body>
 ```
@@ -24,11 +27,11 @@ Using a regular HTML file you can define your content as usual. Then, using a JS
 ```js
 const cardStyles = `
   <body>
-    m-0 flex justify-center items-center h-screen bg-slate-700 
+    m-0 flex justify-center items-center h-screen bg-[#c8b68e]
     <div>
       text-center 
       <div>
-        w-[300px] p-[20px] rounded-lg shadow-lg bg-white 
+        w-[300px] p-[20px] rounded-lg shadow-lg bg-[#473f35] text-white
         <img>
           w-[150px] h-[150px] rounded-full object-cover mb-4 mx-auto
         </img>
@@ -38,7 +41,9 @@ const cardStyles = `
         <p>
           mb-2 text-lg
         </p>
-        <p></p>
+        <p>
+          <span> text-[#00ff80] </span>
+        </p>
       </div>
     </div>
   </body>
@@ -48,7 +53,7 @@ const cardStyles = `
 The entry point of the styles is defined in the HTML file, with the "root" attribute, seen in the HTML code in the body tag. Then the styles are applied via the implementStyles function:
 
 ```js
-  implementStyles(cardStyles, "example.html", "userCard");
+  implementStyles(cardStyles, "userCard");
 ```
 
 Then the results can be seen by opening the HTML file in the browser:
