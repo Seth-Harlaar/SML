@@ -86,7 +86,7 @@ could be a way to use these selectors in the style markup folder. Though selects
 ## Notes
 - This is currently just something I thought would be interesting, not meant to be a production level idea at this point.
 - I understand that it would probably be a pain to copy and paste your HTML code into your CSS file so that you could style it, and this would create code duplication technically. 
-- Some sort of tooling could be used to quickly select only the element tages in the HTMl to make copying over to CSS file easier.
+- Some sort of tooling could be used to quickly select only the element tags in the HTMl to make copying over to CSS file easier.
 - I used the Tailwind CSS CDN to quickly hack together a proof of conecpt for this idea.
 
 
